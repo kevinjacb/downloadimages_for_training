@@ -11,8 +11,8 @@ headers = {
 
 response = requests.request("GET", url, headers=headers, params=querystring)
 json_obj = json.loads(response.content)
-json_formatted = json.dumps(json_obj, indent=2)
-#print(json_formatted)
+json_formatted = json.dumps(json_obj, indent=2)\
+#print(json_formatted) <-- prints the json data in a formatted manner
 for i in json_obj["value"]:
     #Below line prints out all the urls of the images
     print(i["contentUrl"])
