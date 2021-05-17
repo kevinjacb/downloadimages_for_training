@@ -2,7 +2,7 @@ import requests
 import json
 url = "https://bing-image-search1.p.rapidapi.com/images/search"
 
-querystring = {"q":"YOUR QUERY HERE","count": }
+querystring = {"q":"YOUR QUERY HERE","count": DESIRED NUMBER OF IMAGE URLS }
 
 headers = {
     'x-rapidapi-key': "YOUR BING IMAGE SEARCH API KEY HERE",
