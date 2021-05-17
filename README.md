@@ -3,7 +3,7 @@ This is a simple code that can be used to download a desired number of images of
 
 This file path can be changed as per your requirement.
 
-Please make sure you have a Bing Image Search API key with you before code execution. You can get it here --> https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-image-search1
+Please make sure you have a Bing Image Search API key with you before code execution. You can get it here --> https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-image-search1   (Its free!)
 
 Replace none in the api_key variable with your API key.
 
